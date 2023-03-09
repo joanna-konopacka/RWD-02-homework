@@ -1,0 +1,19 @@
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+header {
+	background-color: rgb(181, 71, 187);
+	height: 20%;
+}
+main {
+	background-color: rgb(230, 203, 123);
+	overflow-y: scroll;
+	font-size: 16px;
+	flex-shrink: 5;
+}
+footer {
+	background-color: rgb(191, 116, 62);
+	height: 20%;
+}
